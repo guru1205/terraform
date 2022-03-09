@@ -54,4 +54,5 @@ resource "aws_security_group" "allow_SG" {
     protocol    = "tcp"
     cidr_blocks = [aws_vpc.main.cidr_block]
   }
+}
 
